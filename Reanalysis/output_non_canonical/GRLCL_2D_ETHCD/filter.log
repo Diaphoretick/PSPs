@@ -1,0 +1,35 @@
+time="00:09:50" level=info msg="Executing Filter  v5.1.3"
+time="00:09:50" level=info msg="Fetching protein inference from /media/lsky/HDD1/biology/Anna/output/GRLCL_1D_ETHCD"
+time="00:09:51" level=info msg="Processing peptide identification files"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr9_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr4_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr5_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr2_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr7_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr3_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr6_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr8_immunopeptidome.pep.xml"
+time="00:09:51" level=info msg="Parsing /media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr1_immunopeptidome.pep.xml"
+time="00:09:52" level=info msg="1+ Charge profile" decoy=0 target=0
+time="00:09:52" level=info msg="2+ Charge profile" decoy=446 target=2937
+time="00:09:52" level=info msg="3+ Charge profile" decoy=245 target=2230
+time="00:09:52" level=info msg="4+ Charge profile" decoy=29 target=157
+time="00:09:52" level=info msg="5+ Charge profile" decoy=1 target=3
+time="00:09:52" level=info msg="6+ Charge profile" decoy=1 target=0
+time="00:09:52" level=info msg="Database search results" ions=5188 peptides=4389 psms=6049
+time="00:09:52" level=info msg="Converged to 1.00 % FDR with 2811 PSMs" decoy=28 threshold=0.912394 total=2839
+time="00:09:52" level=info msg="Converged to 0.99 % FDR with 1912 Peptides" decoy=19 threshold=0.924529 total=1931
+time="00:09:52" level=info msg="Converged to 0.98 % FDR with 2441 Ions" decoy=24 threshold=0.912399 total=2465
+time="00:09:52" level=info msg="Protein inference results" decoy=1040 target=5061
+time="00:09:52" level=info msg="Converged to 24.72 % FDR with 4167 Proteins" decoy=1030 threshold=0.4998 total=5197
+time="00:09:52" level=info msg="Applying sequential FDR estimation" ions=2465 peptides=2037 psms=2839
+time="00:09:52" level=info msg="2810 PSMs" decoy=28 threshold=0.912399 total=2838
+time="00:09:52" level=info msg="1912 Peptides" decoy=19 threshold=0.924529 total=1931
+time="00:09:52" level=info msg="2440 Ions" decoy=24 threshold=0.912465 total=2464
+time="00:09:52" level=info msg="Post processing identifications"
+time="00:09:53" level=info msg="Assigning protein identifications to layers"
+time="00:09:54" level=info msg="Processing protein inference"
+time="00:09:55" level=info msg="Synchronizing PSMs and proteins"
+time="00:09:55" level=info msg="Final report numbers after FDR filtering, and post-processing" ions=2440 peptides=1912 proteins=1678 psms=2810
+time="00:09:55" level=info msg=Saving
+time="00:09:55" level=info msg=Done

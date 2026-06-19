@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pepXML_std.xsl"?>
+<msms_pipeline_analysis date="2026-06-15T00:07:02" xmlns="http://regis-web.systemsbiology.net/pepXML" summary_xml="/media/lsky/HDD1/biology/Anna/immunopeptidome/GR_LCL_2D_ETHCD_fr1_immunopeptidome.pepXML" xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/pepXML/pepXML_v122.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<analysis_summary analysis="Percolator" time="2026-06-15T00:09:22">
+<peptideprophet_summary min_prob="0.50">
+<inputfile name="/media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/GR_LCL_2D_ETHCD_fr1_immunopeptidome.pepXML"/>
+</peptideprophet_summary>
+</analysis_summary>
+<analysis_summary analysis="database_refresh" time="2026-06-15T00:09:22"/>
+<analysis_summary analysis="interact" time="2026-06-15T00:09:22">
+<interact_summary filename="/media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/interact-GR_LCL_2D_ETHCD_fr1_immunopeptidome.pep.xml" directory="">
+<inputfile name="/media/lsky/HDD1/biology/Anna/output/GRLCL_2D_ETHCD/GR_LCL_2D_ETHCD_fr1_immunopeptidome.pepXML"/>
+</interact_summary>
+</analysis_summary>
+<dataset_derivation generation_no="0"/>
+<msms_run_summary base_name="/media/lsky/HDD1/biology/Anna/immunopeptidome/GR_LCL_2D_ETHCD_fr1_immunopeptidome_uncalibrated" raw_data_type="mzML" raw_data="mzML">
+<sample_enzyme name="nonspecific">
+<specificity cut="@" no_cut="" sense="C"/>
+<specificity cut="@" no_cut="" sense="C"/>
+</sample_enzyme>
+<search_summary base_name="/media/lsky/HDD1/biology/Anna/immunopeptidome/GR_LCL_2D_ETHCD_fr1_immunopeptidome" precursor_mass_type="monoisotopic" search_engine="X! Tandem" search_engine_version="MSFragger-4.4.1" fragment_mass_type="monoisotopic" search_id="1">
+<search_database local_path="/media/lsky/HDD1/biology/Anna/2026-06-14-decoys-contam-SmProt2_human_Ribo.fa.fas" type="AA"/>
+<enzymatic_search_constraint enzyme="default" min_number_termini="0" max_num_internal_cleavages="2"/>
+<enzymatic_search_constraint enzyme="default2" min_number_termini="0" max_num_internal_cleavages="2"/>
+<aminoacid_modification aminoacid="M" massdiff="15.9949" mass="147.0354" variable="Y"/>
+<terminal_modification massdiff="42.0106" protein_terminus="Y" mass="43.018425" terminus="N" variable="Y"/>
+<aminoacid_modification aminoacid="Q" massdiff="-17.0265" mass="111.032074" variable="Y" peptide_terminus="n"/>
+<aminoacid_modification aminoacid="E" massdiff="-18.0106" mass="111.03199" variable="Y" peptide_terminus="n"/>
+<aminoacid_modification aminoacid="C" massdiff="119.0041" mass="222.01329" variable="Y"/>
+<parameter name="# MSFragger.build" value="MSFragger-4.4.1"/>
+<parameter name="database_name" value="/media/lsky/HDD1/biology/Anna/2026-06-14-decoys-contam-SmProt2_human_Ribo.fa.fas"/>
+<parameter name="decoy_prefix" value="rev_"/>
+<parameter name="keep_decoys" value="1"/>
+<parameter name="num_threads" value="7"/>
+<parameter name="precursor_mass_lower" value="-20.0"/>
+<parameter name="precursor_mass_upper" value="20.0"/>
+<parameter name="precursor_mass_units" value="1"/>
+<parameter name="precursor_true_tolerance" value="15.0"/>
+<parameter name="data_type" value="0"/>
+<parameter name="precursor_true_units" value="1"/>
+<parameter name="fragment_mass_tolerance" value="20.0"/>
+<parameter name="fragment_mass_units" value="1"/>
+<parameter name="calibrate_mass" value="0"/>
+<parameter name="use_all_mods_in_first_search" value="0"/>
+<parameter name="write_calibrated_mzml" value="0"/>
+<parameter name="write_uncalibrated_mzml" value="1"/>
+<parameter name="write_mzbin_all" value="0"/>
+<parameter name="isotope_error" value="0/1"/>
+<parameter name="mass_offsets" value="0.0"/>
+<parameter name="use_detailed_offsets" value="0"/>
+<parameter name="labile_search_mode" value="OFF"/>
+<parameter name="restrict_deltamass_to" value="all"/>
+<parameter name="precursor_mass_mode" value="SELECTED"/>
+<parameter name="intensity_transform" value="1"/>
+<parameter name="activation_types" value="all"/>
+<parameter name="analyzer_types" value="all"/>
+<parameter name="group_variable" value="0"/>
+<parameter name="require_precursor" value="1"/>
+<parameter name="reuse_dia_fragment_peaks" value="0"/>
+<parameter name="remove_precursor_peak" value="1"/>
+<parameter name="remove_precursor_range" value="-1.500000,1.500000"/>
+<parameter name="localize_delta_mass" value="0"/>
+<parameter name="delta_mass_exclude_ranges" value="(-1.5,3.5)"/>
+<parameter name="fragment_ion_series" value="b,y"/>
+<parameter name="ion_series_definitions" value=""/>
+<parameter name="search_enzyme_name" value="nonspecific"/>
+<parameter name="min_sequence_matches" value="2"/>
+<parameter name="check_spectral_files" value="1"/>
+<parameter name="search_enzyme_cut_1" value="@"/>
+<parameter name="search_enzyme_nocut_1" value=""/>
+<parameter name="num_enzyme_termini" value="0"/>
+<parameter name="allowed_missed_cleavage_1" value="2"/>
+<parameter name="search_enzyme_sense_1" value="C"/>
+<parameter name="search_enzyme_cut_2" value="@"/>
+<parameter name="search_enzyme_nocut_2" value=""/>
+<parameter name="allowed_missed_cleavage_2" value="2"/>
+<parameter name="search_enzyme_sense_2" value="C"/>
+<parameter name="clip_nTerm_M" value="1"/>
+<parameter name="allow_multiple_variable_mods_on_residue" value="0"/>
+<parameter name="max_variable_mods_per_peptide" value="3"/>
+<parameter name="max_variable_mods_combinations" value="5000"/>
+<parameter name="mass_diff_to_variable_mod" value="0"/>
+<parameter name="output_format" value="pepxml_pin"/>
+<parameter name="output_report_topN" value="1"/>
+<parameter name="output_max_expect" value="Infinity"/>
+<parameter name="report_alternative_proteins" value="1"/>
+<parameter name="override_charge" value="0"/>
+<parameter name="precursor_charge" value="1 4"/>
+<parameter name="digest_min_length" value="7"/>
+<parameter name="digest_max_length" value="25"/>
+<parameter name="digest_mass_range" value="200.0 5000.0"/>
+<parameter name="max_fragment_charge" value="1"/>
+<parameter name="deisotope" value="1"/>
+<parameter name="deneutralloss" value="1"/>
+<parameter name="track_zero_topN" value="0"/>
+<parameter name="zero_bin_accept_expect" value="0.0"/>
+<parameter name="zero_bin_mult_expect" value="1.0"/>
+<parameter name="minimum_peaks" value="15"/>
+<parameter name="use_topN_peaks" value="300"/>
+<parameter name="min_fragments_modelling" value="2"/>
+<parameter name="min_matched_fragments" value="5"/>
+<parameter name="minimum_ratio" value="0.0"/>
+<parameter name="clear_mz_range" value="0.0 0.0"/>
+<parameter name="excluded_scan_list_file" value=""/>
+<parameter name="variable_mod_01" value="15.9949 M 2"/>
+<parameter name="variable_mod_02" value="42.0106 [^ 1"/>
+<parameter name="variable_mod_04" value="-17.0265 nQ 1"/>
+<parameter name="variable_mod_05" value="-18.0106 nE 1"/>
+<parameter name="variable_mod_06" value="119.0041 C 1"/>
+<parameter name="add_A_alanine" value="0.0"/>
+<parameter name="add_B_user_amino_acid" value="0.0"/>
+<parameter name="add_Cterm_peptide" value="0.0"/>
+<parameter name="add_Cterm_protein" value="0.0"/>
+<parameter name="add_D_aspartic_acid" value="0.0"/>
+<parameter name="add_E_glutamic_acid" value="0.0"/>
+<parameter name="add_F_phenylalanine" value="0.0"/>
+<parameter name="add_G_glycine" value="0.0"/>
+<parameter name="add_H_histidine" value="0.0"/>
+<parameter name="add_I_isoleucine" value="0.0"/>
+<parameter name="add_J_user_amino_acid" value="0.0"/>
+<parameter name="add_K_lysine" value="0.0"/>
+<parameter name="add_L_leucine" value="0.0"/>
+<parameter name="add_M_methionine" value="0.0"/>
+<parameter name="add_N_asparagine" value="0.0"/>
+<parameter name="add_Nterm_peptide" value="0.0"/>
+<parameter name="add_Nterm_protein" value="0.0"/>
+<parameter name="add_O_user_amino_acid" value="0.0"/>
+<parameter name="add_P_proline" value="0.0"/>
+<parameter name="add_Q_glutamine" value="0.0"/>
+<parameter name="add_R_arginine" value="0.0"/>
+<parameter name="add_S_serine" value="0.0"/>
+<parameter name="add_T_threonine" value="0.0"/>
+<parameter name="add_U_user_amino_acid" value="0.0"/>
+<parameter name="add_V_valine" value="0.0"/>
+<parameter name="add_W_tryptophan" value="0.0"/>
+<parameter name="add_X_user_amino_acid" value="0.0"/>
+<parameter name="add_Y_tyrosine" value="0.0"/>
+<parameter name="add_Z_user_amino_acid" value="0.0"/>
+</search_summary>
+<spectrum_query start_scan="1035" assumed_charge="3" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01035.01035.3" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1035" end_scan="1035" index="898" precursor_neutral_mass="1811.8524" retention_time_sec="2495.1514">
+<search_result>
+<search_hit peptide="SRSGGGGGGGLGSGGSIRSSY" massdiff="0.00146484375" calc_neutral_pep_mass="1811.851" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="Keratin, type I cytoskeletal 9 OS=Homo sapiens OX=9606 GN=KRT9 PE=1 SV=3" num_tot_proteins="1" tot_num_ions="40" hit_rank="1" num_matched_ions="20" protein="contam_sp|P35527|K1C9_HUMAN" peptide_prev_aa="L" is_rejected="0">
+<search_score name="hyperscore" value="46.341"/>
+<search_score name="nextscore" value="19.067"/>
+<search_score name="expect" value="3.541e-08"/>
+<search_score name="spectralsim" value="0.964500"/>
+<search_score name="rtscore" value="1.496500"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.745313" all_ntt_prob="(0.745313,0.745313,0.745313)">
+<search_score_summary>
+<parameter name="fval" value="0.000000"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="0.808479"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1044" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01044.01044.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1044" end_scan="1044" index="906" precursor_neutral_mass="983.47504" retention_time_sec="2515.008">
+<search_result>
+<search_hit peptide="LPAPPTQNM" massdiff="4.8828125E-4" calc_neutral_pep_mass="983.47455" peptide_next_aa="N" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="16" tot_num_ions="16" hit_rank="1" num_matched_ions="9" protein="SPROHSA127199" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA164548" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA164585" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA184105" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA224152" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA224614" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA231511" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA263860" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA293166" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA306210" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA372971" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA372972" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA382195" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA387863" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA387864" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA7502" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+
+<modification_info modified_peptide="LPAPPTQNM[147]">
+<mod_aminoacid_mass mass="147.0354" position="9"/>
+</modification_info>
+<search_score name="hyperscore" value="18.675"/>
+<search_score name="nextscore" value="12.918"/>
+<search_score name="expect" value="7.521e-02"/>
+<search_score name="spectralsim" value="0.844300"/>
+<search_score name="rtscore" value="12.538100"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.571005" all_ntt_prob="(0.571005,0.571005,0.571005)">
+<search_score_summary>
+<parameter name="fval" value="-0.212116"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="0.496486"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1082" assumed_charge="3" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01082.01082.3" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1082" end_scan="1082" index="941" precursor_neutral_mass="1248.6133" retention_time_sec="2600.9368">
+<search_result>
+<search_hit peptide="FKDLGEEHFK" massdiff="-4.8828125E-4" calc_neutral_pep_mass="1248.6138" peptide_next_aa="G" num_missed_cleavages="0" num_tol_term="0" protein_descr="Albumin OS=Bos taurus OX=9913 GN=ALB PE=1 SV=4" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="9" protein="contam_sp|P02769|ALBU_BOVIN" peptide_prev_aa="R" is_rejected="0">
+<search_score name="hyperscore" value="18.366"/>
+<search_score name="nextscore" value="11.946"/>
+<search_score name="expect" value="8.399e-03"/>
+<search_score name="spectralsim" value="0.904200"/>
+<search_score name="rtscore" value="2.598200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.660577" all_ntt_prob="(0.660577,0.660577,0.660577)">
+<search_score_summary>
+<parameter name="fval" value="-0.115861"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.391059"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1210" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01210.01210.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1210" end_scan="1210" index="1057" precursor_neutral_mass="964.4606" retention_time_sec="2864.9165">
+<search_result>
+<search_hit peptide="NTDSPLRY" massdiff="-7.9345703125E-4" calc_neutral_pep_mass="964.46136" peptide_next_aa="G" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="3" tot_num_ions="14" hit_rank="1" num_matched_ions="9" protein="SPROHSA241170" peptide_prev_aa="C" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA315309" peptide_prev_aa="C" peptide_next_aa="V" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA359318" peptide_prev_aa="C" peptide_next_aa="V" num_tol_term="0"/>
+<search_score name="hyperscore" value="19.186"/>
+<search_score name="nextscore" value="13.408"/>
+<search_score name="expect" value="3.284e-02"/>
+<search_score name="spectralsim" value="0.969600"/>
+<search_score name="rtscore" value="0.082500"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.738405" all_ntt_prob="(0.738405,0.738405,0.738405)">
+<search_score_summary>
+<parameter name="fval" value="-0.010767"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.822694"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1221" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01221.01221.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1221" end_scan="1221" index="1067" precursor_neutral_mass="931.4606" retention_time_sec="2885.6296">
+<search_result>
+<search_hit peptide="PSSSLSGNAL" massdiff="-4.8828125E-4" calc_neutral_pep_mass="931.46106" peptide_next_aa="D" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="18" hit_rank="1" num_matched_ions="8" protein="rev_SPROHSA215039" peptide_prev_aa="E" is_rejected="0">
+<alternative_protein protein_descr="" protein="rev_SPROHSA22729" peptide_prev_aa="E" peptide_next_aa="D" num_tol_term="0"/>
+<search_score name="hyperscore" value="16.006"/>
+<search_score name="nextscore" value="12.977"/>
+<search_score name="expect" value="1.582e+00"/>
+<search_score name="spectralsim" value="0.847300"/>
+<search_score name="rtscore" value="4.494600"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.604710" all_ntt_prob="(0.604710,0.604710,0.604710)">
+<search_score_summary>
+<parameter name="fval" value="-0.178155"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.524210"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1236" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01236.01236.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1236" end_scan="1236" index="1081" precursor_neutral_mass="1279.4442" retention_time_sec="2906.686">
+<search_result>
+<search_hit peptide="PAGCPCVCWQP" massdiff="0.9788818359375" calc_neutral_pep_mass="1278.4653" peptide_next_aa="R" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="20" hit_rank="1" num_matched_ions="7" protein="SPROHSA174809" peptide_prev_aa="A" is_rejected="0">
+<modification_info modified_peptide="PAGC[222]PCVCWQP">
+<mod_aminoacid_mass mass="222.01329" position="4"/>
+</modification_info>
+<search_score name="hyperscore" value="12.579"/>
+<search_score name="nextscore" value="11.770"/>
+<search_score name="expect" value="2.402e+00"/>
+<search_score name="spectralsim" value="0.812300"/>
+<search_score name="rtscore" value="14.552400"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.515617" all_ntt_prob="(0.515617,0.515617,0.515617)">
+<search_score_summary>
+<parameter name="fval" value="-0.263538"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-19.142484"/>
+<parameter name="isomassd" value="1"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1248" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01248.01248.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1248" end_scan="1248" index="1092" precursor_neutral_mass="909.45496" retention_time_sec="2924.9846">
+<search_result>
+<search_hit peptide="SPAGNSPAPL" massdiff="-6.103515625E-4" calc_neutral_pep_mass="909.45557" peptide_next_aa="*" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="7" tot_num_ions="18" hit_rank="1" num_matched_ions="7" protein="SPROHSA22827" peptide_prev_aa="S" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA237945" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA239459" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA293343" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA313465" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA354001" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA82785" peptide_prev_aa="S" peptide_next_aa="*" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="15.560"/>
+<search_score name="nextscore" value="0.000"/>
+<search_score name="expect" value="1.646e-02"/>
+<search_score name="spectralsim" value="0.901400"/>
+<search_score name="rtscore" value="2.669200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.693289" all_ntt_prob="(0.693289,0.693289,0.693289)">
+<search_score_summary>
+<parameter name="fval" value="-0.074852"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.671118"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1275" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01275.01275.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1275" end_scan="1275" index="1116" precursor_neutral_mass="956.492" retention_time_sec="2976.1484">
+<search_result>
+<search_hit peptide="LEASVGPRE" massdiff="-6.7138671875E-4" calc_neutral_pep_mass="956.4927" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="6" protein="SPROHSA372096" peptide_prev_aa="T" is_rejected="0">
+<search_score name="hyperscore" value="13.366"/>
+<search_score name="nextscore" value="11.967"/>
+<search_score name="expect" value="4.449e+00"/>
+<search_score name="spectralsim" value="0.896000"/>
+<search_score name="rtscore" value="11.332400"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.685357" all_ntt_prob="(0.685357,0.685357,0.685357)">
+<search_score_summary>
+<parameter name="fval" value="-0.085163"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.701926"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1285" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01285.01285.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1285" end_scan="1285" index="1125" precursor_neutral_mass="1534.6243" retention_time_sec="2995.2852">
+<search_result>
+<search_hit peptide="NTEEAANTMVNYY" massdiff="-2.44140625E-4" calc_neutral_pep_mass="1534.6245" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="24" hit_rank="1" num_matched_ions="12" protein="SPROHSA138537" peptide_prev_aa="M" is_rejected="0">
+<modification_info modified_peptide="NTEEAANTM[147]VNYY">
+<mod_aminoacid_mass mass="147.0354" position="9"/>
+</modification_info>
+<search_score name="hyperscore" value="25.300"/>
+<search_score name="nextscore" value="25.300"/>
+<search_score name="expect" value="3.234e-05"/>
+<search_score name="spectralsim" value="0.821800"/>
+<search_score name="rtscore" value="4.103900"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.530505" all_ntt_prob="(0.530505,0.530505,0.530505)">
+<search_score_summary>
+<parameter name="fval" value="-0.250175"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.159088"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1388" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01388.01388.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1388" end_scan="1388" index="1219" precursor_neutral_mass="1072.4473" retention_time_sec="3197.221">
+<search_result>
+<search_hit peptide="ISDDAEAIHC" massdiff="-0.002197265625" calc_neutral_pep_mass="1072.4495" peptide_next_aa="E" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="5" protein="SPROHSA372660" peptide_prev_aa="L" is_rejected="0">
+<search_score name="hyperscore" value="10.045"/>
+<search_score name="nextscore" value="0.000"/>
+<search_score name="expect" value="5.863e+00"/>
+<search_score name="spectralsim" value="0.857500"/>
+<search_score name="rtscore" value="10.974200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.595581" all_ntt_prob="(0.595581,0.595581,0.595581)">
+<search_score_summary>
+<parameter name="fval" value="-0.187588"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-2.048829"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1393" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01393.01393.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1393" end_scan="1393" index="1224" precursor_neutral_mass="1222.5103" retention_time_sec="3210.821">
+<search_result>
+<search_hit peptide="GTDNPLSGGDQY" massdiff="1.220703125E-4" calc_neutral_pep_mass="1222.5101" peptide_next_aa="Q" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="22" hit_rank="1" num_matched_ions="13" protein="SPROHSA366973" peptide_prev_aa="D" is_rejected="0">
+<search_score name="hyperscore" value="27.028"/>
+<search_score name="nextscore" value="16.096"/>
+<search_score name="expect" value="8.944e-04"/>
+<search_score name="spectralsim" value="0.910600"/>
+<search_score name="rtscore" value="0.572500"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.678010" all_ntt_prob="(0.678010,0.678010,0.678010)">
+<search_score_summary>
+<parameter name="fval" value="-0.094495"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="0.099852"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1397" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01397.01397.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1397" end_scan="1397" index="1227" precursor_neutral_mass="967.48" retention_time_sec="3214.6895">
+<search_result>
+<search_hit peptide="LPAPPTQNM" massdiff="3.0517578125E-4" calc_neutral_pep_mass="967.4797" peptide_next_aa="N" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="16" tot_num_ions="16" hit_rank="1" num_matched_ions="10" protein="SPROHSA127199" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA164548" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA164585" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA184105" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA224152" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA224614" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA231511" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA263860" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA293166" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA306210" peptide_prev_aa="L" peptide_next_aa="N" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA372971" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA372972" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA382195" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA387863" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA387864" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA7502" peptide_prev_aa="L" peptide_next_aa="P" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="19.455"/>
+<search_score name="nextscore" value="12.527"/>
+<search_score name="expect" value="3.466e-02"/>
+<search_score name="spectralsim" value="0.822500"/>
+<search_score name="rtscore" value="0.269500"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.533830" all_ntt_prob="(0.533830,0.533830,0.533830)">
+<search_score_summary>
+<parameter name="fval" value="-0.247148"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="0.315434"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1406" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01406.01406.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1406" end_scan="1406" index="1235" precursor_neutral_mass="1150.424" retention_time_sec="3221.0764">
+<search_result>
+<search_hit peptide="QEEEEEETE" massdiff="0.009033203125" calc_neutral_pep_mass="1150.4149" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="7" protein="SPROHSA98269" peptide_prev_aa="I" is_rejected="0">
+<search_score name="hyperscore" value="13.983"/>
+<search_score name="nextscore" value="12.344"/>
+<search_score name="expect" value="1.520e+00"/>
+<search_score name="spectralsim" value="0.868100"/>
+<search_score name="rtscore" value="25.279699"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.641209" all_ntt_prob="(0.641209,0.641209,0.641209)">
+<search_score_summary>
+<parameter name="fval" value="-0.138438"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="7.852126"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1410" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01410.01410.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1410" end_scan="1410" index="1239" precursor_neutral_mass="935.50684" retention_time_sec="3223.102">
+<search_result>
+<search_hit peptide="APAQTPAPAL" massdiff="-7.32421875E-4" calc_neutral_pep_mass="935.50757" peptide_next_aa="P" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="18" hit_rank="1" num_matched_ions="9" protein="SPROHSA49021" peptide_prev_aa="Q" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA49022" peptide_prev_aa="Q" peptide_next_aa="P" num_tol_term="0"/>
+<search_score name="hyperscore" value="18.351"/>
+<search_score name="nextscore" value="15.729"/>
+<search_score name="expect" value="2.312e-01"/>
+<search_score name="spectralsim" value="0.934500"/>
+<search_score name="rtscore" value="2.020400"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.737831" all_ntt_prob="(0.737831,0.737831,0.737831)">
+<search_score_summary>
+<parameter name="fval" value="-0.011648"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.782914"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1430" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01430.01430.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1430" end_scan="1430" index="1257" precursor_neutral_mass="882.3663" retention_time_sec="3259.521">
+<search_result>
+<search_hit peptide="LAASGSCR" massdiff="-0.00250244140625" calc_neutral_pep_mass="882.3688" peptide_next_aa="I" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="14" hit_rank="1" num_matched_ions="6" protein="SPROHSA205657" peptide_prev_aa="T" is_rejected="0">
+<modification_info modified_peptide="LAASGSC[222]R">
+<mod_aminoacid_mass mass="222.01329" position="7"/>
+</modification_info>
+<search_score name="hyperscore" value="11.232"/>
+<search_score name="nextscore" value="9.381"/>
+<search_score name="expect" value="3.703e+00"/>
+<search_score name="spectralsim" value="0.833900"/>
+<search_score name="rtscore" value="31.489100"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.553431" all_ntt_prob="(0.553431,0.553431,0.553431)">
+<search_score_summary>
+<parameter name="fval" value="-0.228962"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-2.836049"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1484" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01484.01484.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1484" end_scan="1484" index="1306" precursor_neutral_mass="1086.4532" retention_time_sec="3356.42">
+<search_result>
+<search_hit peptide="DSDMQTLVY" massdiff="-6.103515625E-4" calc_neutral_pep_mass="1086.4539" peptide_next_aa="E" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="21" tot_num_ions="16" hit_rank="1" num_matched_ions="8" protein="SPROHSA119544" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA123387" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123388" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123389" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123390" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA175300" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA182746" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209470" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209471" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209472" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209473" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA24009" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA252759" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA284418" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335648" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335649" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335650" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52832" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52833" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52834" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA88645" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+
+<modification_info modified_peptide="DSDM[147]QTLVY">
+<mod_aminoacid_mass mass="147.0354" position="4"/>
+</modification_info>
+<search_score name="hyperscore" value="17.292"/>
+<search_score name="nextscore" value="12.884"/>
+<search_score name="expect" value="7.882e-02"/>
+<search_score name="spectralsim" value="0.845200"/>
+<search_score name="rtscore" value="5.705200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.572488" all_ntt_prob="(0.572488,0.572488,0.572488)">
+<search_score_summary>
+<parameter name="fval" value="-0.210670"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.561783"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1485" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01485.01485.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1485" end_scan="1485" index="1307" precursor_neutral_mass="1193.4663" retention_time_sec="3356.949">
+<search_result>
+<search_hit peptide="SQDPSDDCATR" massdiff="0.0045166015625" calc_neutral_pep_mass="1193.4618" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="20" hit_rank="1" num_matched_ions="8" protein="rev_SPROHSA57777" peptide_prev_aa="T" is_rejected="0">
+<alternative_protein protein_descr="" protein="rev_SPROHSA61314" peptide_prev_aa="T" peptide_next_aa="S" num_tol_term="0"/>
+<search_score name="hyperscore" value="16.005"/>
+<search_score name="nextscore" value="12.638"/>
+<search_score name="expect" value="1.538e+00"/>
+<search_score name="spectralsim" value="0.883000"/>
+<search_score name="rtscore" value="32.956600"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.665456" all_ntt_prob="(0.665456,0.665456,0.665456)">
+<search_score_summary>
+<parameter name="fval" value="-0.109987"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="3.784454"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1497" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01497.01497.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1497" end_scan="1497" index="1318" precursor_neutral_mass="1020.5123" retention_time_sec="3379.397">
+<search_result>
+<search_hit peptide="ATETQPIVY" massdiff="-4.2724609375E-4" calc_neutral_pep_mass="1020.51276" peptide_next_aa="G" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="12" tot_num_ions="16" hit_rank="1" num_matched_ions="10" protein="SPROHSA142430" peptide_prev_aa="Q" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA168358" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA168359" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA168361" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA190705" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA256887" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA74199" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA74200" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA74202" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA76679" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA76680" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA76682" peptide_prev_aa="Q" peptide_next_aa="G" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="20.954"/>
+<search_score name="nextscore" value="11.644"/>
+<search_score name="expect" value="2.185e-03"/>
+<search_score name="spectralsim" value="0.866100"/>
+<search_score name="rtscore" value="1.704000"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.637835" all_ntt_prob="(0.637835,0.637835,0.637835)">
+<search_score_summary>
+<parameter name="fval" value="-0.142257"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.418658"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1619" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01619.01619.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1619" end_scan="1619" index="1429" precursor_neutral_mass="838.45416" retention_time_sec="3616.521">
+<search_result>
+<search_hit peptide="SPLPAGNAL" massdiff="-6.7138671875E-4" calc_neutral_pep_mass="838.45483" peptide_next_aa="A" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="5" tot_num_ions="16" hit_rank="1" num_matched_ions="8" protein="SPROHSA215651" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA337457" peptide_prev_aa="L" peptide_next_aa="A" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA337458" peptide_prev_aa="L" peptide_next_aa="A" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA371630" peptide_prev_aa="L" peptide_next_aa="A" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA80955" peptide_prev_aa="L" peptide_next_aa="A" num_tol_term="0"/>
+<search_score name="hyperscore" value="16.636"/>
+<search_score name="nextscore" value="12.563"/>
+<search_score name="expect" value="9.996e-02"/>
+<search_score name="spectralsim" value="0.935900"/>
+<search_score name="rtscore" value="1.217100"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.739567" all_ntt_prob="(0.739567,0.739567,0.739567)">
+<search_score_summary>
+<parameter name="fval" value="-0.008975"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.800743"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1627" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01627.01627.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1627" end_scan="1627" index="1436" precursor_neutral_mass="995.53906" retention_time_sec="3630.4043">
+<search_result>
+<search_hit peptide="PTGVLGTTPGP" massdiff="0.01031494140625" calc_neutral_pep_mass="995.52875" peptide_next_aa="-" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="20" hit_rank="1" num_matched_ions="5" protein="rev_SPROHSA170530" peptide_prev_aa="D" is_rejected="0">
+<search_score name="hyperscore" value="10.894"/>
+<search_score name="nextscore" value="0.000"/>
+<search_score name="expect" value="2.694e+00"/>
+<search_score name="spectralsim" value="0.799500"/>
+<search_score name="rtscore" value="6.187700"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.508948" all_ntt_prob="(0.508948,0.508948,0.508948)">
+<search_score_summary>
+<parameter name="fval" value="-0.269429"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="10.361269"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1648" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01648.01648.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1648" end_scan="1648" index="1455" precursor_neutral_mass="1063.5176" retention_time_sec="3663.1362">
+<search_result>
+<search_hit peptide="SEQPSLLFSG" massdiff="-9.765625E-4" calc_neutral_pep_mass="1063.5186" peptide_next_aa="R" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="7" protein="SPROHSA188706" peptide_prev_aa="N" is_rejected="0">
+<search_score name="hyperscore" value="14.557"/>
+<search_score name="nextscore" value="13.387"/>
+<search_score name="expect" value="2.246e+00"/>
+<search_score name="spectralsim" value="0.897100"/>
+<search_score name="rtscore" value="14.346500"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.658647" all_ntt_prob="(0.658647,0.658647,0.658647)">
+<search_score_summary>
+<parameter name="fval" value="-0.118163"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.918237"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1667" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01667.01667.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1667" end_scan="1667" index="1473" precursor_neutral_mass="946.4146" retention_time_sec="3690.0938">
+<search_result>
+<search_hit peptide="APNSPMAML" massdiff="-0.01055908203125" calc_neutral_pep_mass="946.4252" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="9" tot_num_ions="16" hit_rank="1" num_matched_ions="6" protein="SPROHSA101535" peptide_prev_aa="S" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA101536" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA16580" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA16581" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA173831" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA329767" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA329768" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA38463" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA38464" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+
+<modification_info modified_peptide="APNSPMAM[147]L">
+<mod_aminoacid_mass mass="147.0354" position="8"/>
+</modification_info>
+<search_score name="hyperscore" value="12.338"/>
+<search_score name="nextscore" value="11.380"/>
+<search_score name="expect" value="4.108e+00"/>
+<search_score name="spectralsim" value="0.825200"/>
+<search_score name="rtscore" value="1.994000"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.538565" all_ntt_prob="(0.538565,0.538565,0.538565)">
+<search_score_summary>
+<parameter name="fval" value="-0.242809"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-11.156806"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1689" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01689.01689.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1689" end_scan="1689" index="1493" precursor_neutral_mass="1173.4935" retention_time_sec="3728.4067">
+<search_result>
+<search_hit peptide="LTDYGNCAAK" massdiff="0.01416015625" calc_neutral_pep_mass="1173.4794" peptide_next_aa="C" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="6" tot_num_ions="18" hit_rank="1" num_matched_ions="8" protein="rev_SPROHSA143035" peptide_prev_aa="F" is_rejected="0">
+<alternative_protein protein_descr="" protein="rev_SPROHSA199407" peptide_prev_aa="F" peptide_next_aa="C" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="rev_SPROHSA264340" peptide_prev_aa="F" peptide_next_aa="C" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="rev_SPROHSA276606" peptide_prev_aa="F" peptide_next_aa="C" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="rev_SPROHSA353055" peptide_prev_aa="F" peptide_next_aa="C" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="rev_SPROHSA55823" peptide_prev_aa="F" peptide_next_aa="C" num_tol_term="0"/>
+<modification_info modified_peptide="LTDYGNC[222]AAK">
+<mod_aminoacid_mass mass="222.01329" position="7"/>
+</modification_info>
+<search_score name="hyperscore" value="16.341"/>
+<search_score name="nextscore" value="15.037"/>
+<search_score name="expect" value="2.634e+00"/>
+<search_score name="spectralsim" value="0.814700"/>
+<search_score name="rtscore" value="29.881800"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.516648" all_ntt_prob="(0.516648,0.516648,0.516648)">
+<search_score_summary>
+<parameter name="fval" value="-0.262623"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="12.066813"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1700" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01700.01700.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1700" end_scan="1700" index="1503" precursor_neutral_mass="904.5009" retention_time_sec="3752.956">
+<search_result>
+<search_hit peptide="SPAPQPLPV" massdiff="-8.544921875E-4" calc_neutral_pep_mass="904.5018" peptide_next_aa="P" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="9" protein="SPROHSA105703" peptide_prev_aa="G" is_rejected="0">
+<search_score name="hyperscore" value="17.943"/>
+<search_score name="nextscore" value="14.483"/>
+<search_score name="expect" value="6.888e-01"/>
+<search_score name="spectralsim" value="0.819200"/>
+<search_score name="rtscore" value="4.118200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.527994" all_ntt_prob="(0.527994,0.527994,0.527994)">
+<search_score_summary>
+<parameter name="fval" value="-0.252451"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.944710"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1759" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01759.01759.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1759" end_scan="1759" index="1556" precursor_neutral_mass="1191.5653" retention_time_sec="3857.9924">
+<search_result>
+<search_hit peptide="LSEPEEAAALY" massdiff="-4.8828125E-4" calc_neutral_pep_mass="1191.5658" peptide_next_aa="R" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="4" tot_num_ions="20" hit_rank="1" num_matched_ions="8" protein="SPROHSA180426" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA258668" peptide_prev_aa="-" peptide_next_aa="R" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA278825" peptide_prev_aa="L" peptide_next_aa="R" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA338082" peptide_prev_aa="L" peptide_next_aa="R" num_tol_term="0"/>
+<search_score name="hyperscore" value="17.758"/>
+<search_score name="nextscore" value="14.468"/>
+<search_score name="expect" value="1.038e-01"/>
+<search_score name="spectralsim" value="0.833300"/>
+<search_score name="rtscore" value="3.979300"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.552315" all_ntt_prob="(0.552315,0.552315,0.552315)">
+<search_score_summary>
+<parameter name="fval" value="-0.230014"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.409781"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1803" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01803.01803.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1803" end_scan="1803" index="1596" precursor_neutral_mass="1070.4585" retention_time_sec="3925.785">
+<search_result>
+<search_hit peptide="DSDMQTLVY" massdiff="-4.8828125E-4" calc_neutral_pep_mass="1070.459" peptide_next_aa="E" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="21" tot_num_ions="16" hit_rank="1" num_matched_ions="12" protein="SPROHSA119544" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA123387" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123388" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123389" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA123390" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA175300" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA182746" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209470" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209471" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209472" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA209473" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA24009" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA252759" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA284418" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335648" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335649" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA335650" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52832" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52833" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA52834" peptide_prev_aa="L" peptide_next_aa="E" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA88645" peptide_prev_aa="I" peptide_next_aa="E" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="24.612"/>
+<search_score name="nextscore" value="13.643"/>
+<search_score name="expect" value="4.623e-04"/>
+<search_score name="spectralsim" value="0.860200"/>
+<search_score name="rtscore" value="7.672200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.596579" all_ntt_prob="(0.596579,0.596579,0.596579)">
+<search_score_summary>
+<parameter name="fval" value="-0.186566"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.456142"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1818" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01818.01818.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1818" end_scan="1818" index="1610" precursor_neutral_mass="1162.6224" retention_time_sec="3953.3042">
+<search_result>
+<search_hit peptide="LVNELTEFAK" massdiff="-8.544921875E-4" calc_neutral_pep_mass="1162.6233" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="Albumin OS=Bos taurus OX=9913 GN=ALB PE=1 SV=4" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="9" protein="contam_sp|P02769|ALBU_BOVIN" peptide_prev_aa="K" is_rejected="0">
+<search_score name="hyperscore" value="19.650"/>
+<search_score name="nextscore" value="12.628"/>
+<search_score name="expect" value="1.139e-03"/>
+<search_score name="spectralsim" value="0.940600"/>
+<search_score name="rtscore" value="1.900800"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.745313" all_ntt_prob="(0.745313,0.745313,0.745313)">
+<search_score_summary>
+<parameter name="fval" value="0.000000"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.734969"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1832" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01832.01832.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1832" end_scan="1832" index="1623" precursor_neutral_mass="946.4205" retention_time_sec="3979.3987">
+<search_result>
+<search_hit peptide="SPACGPKPA" massdiff="1.01568603515625" calc_neutral_pep_mass="945.4048" peptide_next_aa="C" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="7" protein="rev_SPROHSA329312" peptide_prev_aa="C" is_rejected="0">
+<modification_info modified_peptide="SPAC[222]GPKPA">
+<mod_aminoacid_mass mass="222.01329" position="4"/>
+</modification_info>
+<search_score name="hyperscore" value="13.079"/>
+<search_score name="nextscore" value="11.815"/>
+<search_score name="expect" value="3.626e+00"/>
+<search_score name="spectralsim" value="0.830000"/>
+<search_score name="rtscore" value="42.542999"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.546138" all_ntt_prob="(0.546138,0.546138,0.546138)">
+<search_score_summary>
+<parameter name="fval" value="-0.235799"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="13.043299"/>
+<parameter name="isomassd" value="1"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1883" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01883.01883.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1883" end_scan="1883" index="1669" precursor_neutral_mass="917.5055" retention_time_sec="4055.4795">
+<search_result>
+<search_hit peptide="TPLSSTVTL" massdiff="-0.00146484375" calc_neutral_pep_mass="917.50696" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="4" tot_num_ions="16" hit_rank="1" num_matched_ions="5" protein="SPROHSA144201" peptide_prev_aa="A" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA260174" peptide_prev_aa="A" peptide_next_aa="S" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA319082" peptide_prev_aa="A" peptide_next_aa="S" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA93424" peptide_prev_aa="A" peptide_next_aa="S" num_tol_term="0"/>
+<search_score name="hyperscore" value="13.378"/>
+<search_score name="nextscore" value="0.000"/>
+<search_score name="expect" value="1.082e+00"/>
+<search_score name="spectralsim" value="0.874700"/>
+<search_score name="rtscore" value="0.642100"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.652141" all_ntt_prob="(0.652141,0.652141,0.652141)">
+<search_score_summary>
+<parameter name="fval" value="-0.125835"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.596548"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1884" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01884.01884.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1884" end_scan="1884" index="1670" precursor_neutral_mass="843.4841" retention_time_sec="4056.9382">
+<search_result>
+<search_hit peptide="PGPPPGPLL" massdiff="-0.0013427734375" calc_neutral_pep_mass="843.4854" peptide_next_aa="P" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="10" protein="rev_SPROHSA77556" peptide_prev_aa="L" is_rejected="0">
+<search_score name="hyperscore" value="20.174"/>
+<search_score name="nextscore" value="20.026"/>
+<search_score name="expect" value="2.529e-01"/>
+<search_score name="spectralsim" value="0.912100"/>
+<search_score name="rtscore" value="0.452600"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.680097" all_ntt_prob="(0.680097,0.680097,0.680097)">
+<search_score_summary>
+<parameter name="fval" value="-0.091865"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.591934"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1892" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01892.01892.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1892" end_scan="1892" index="1677" precursor_neutral_mass="1069.4493" retention_time_sec="4070.31">
+<search_result>
+<search_hit peptide="QEELTDLCH" massdiff="0.0107421875" calc_neutral_pep_mass="1069.4386" peptide_next_aa="M" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="7" protein="SPROHSA343599" peptide_prev_aa="G" is_rejected="0">
+<modification_info modified_peptide="Q[111]EELTDLCH">
+<mod_aminoacid_mass mass="111.032074" position="1"/>
+</modification_info>
+<search_score name="hyperscore" value="14.224"/>
+<search_score name="nextscore" value="13.205"/>
+<search_score name="expect" value="3.790e+00"/>
+<search_score name="spectralsim" value="0.815800"/>
+<search_score name="rtscore" value="14.899300"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.518814" all_ntt_prob="(0.518814,0.518814,0.518814)">
+<search_score_summary>
+<parameter name="fval" value="-0.260694"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="10.044698"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1942" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01942.01942.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1942" end_scan="1942" index="1723" precursor_neutral_mass="843.42487" retention_time_sec="4162.151">
+<search_result>
+<search_hit peptide="PAALSEAW" massdiff="0.01220703125" calc_neutral_pep_mass="843.41266" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="14" hit_rank="1" num_matched_ions="7" protein="SPROHSA365473" peptide_prev_aa="S" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA373215" peptide_prev_aa="S" peptide_next_aa="S" num_tol_term="0"/>
+<search_score name="hyperscore" value="14.089"/>
+<search_score name="nextscore" value="13.068"/>
+<search_score name="expect" value="3.442e+00"/>
+<search_score name="spectralsim" value="0.807900"/>
+<search_score name="rtscore" value="1.042000"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.507605" all_ntt_prob="(0.507605,0.507605,0.507605)">
+<search_score_summary>
+<parameter name="fval" value="-0.270609"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="14.473379"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1946" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01946.01946.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1946" end_scan="1946" index="1726" precursor_neutral_mass="900.4916" retention_time_sec="4167.4097">
+<search_result>
+<search_hit peptide="SPTLNVSAL" massdiff="-6.103515625E-5" calc_neutral_pep_mass="900.49164" peptide_next_aa="*" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="5" tot_num_ions="16" hit_rank="1" num_matched_ions="9" protein="SPROHSA14145" peptide_prev_aa="T" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA158783" peptide_prev_aa="T" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA176355" peptide_prev_aa="T" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA277460" peptide_prev_aa="T" peptide_next_aa="*" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA66804" peptide_prev_aa="T" peptide_next_aa="*" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="18.805"/>
+<search_score name="nextscore" value="15.612"/>
+<search_score name="expect" value="7.666e-01"/>
+<search_score name="spectralsim" value="0.958900"/>
+<search_score name="rtscore" value="0.676400"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.726984" all_ntt_prob="(0.726984,0.726984,0.726984)">
+<search_score_summary>
+<parameter name="fval" value="-0.027961"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.067780"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1949" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01949.01949.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1949" end_scan="1949" index="1729" precursor_neutral_mass="1064.5027" retention_time_sec="4170.3477">
+<search_result>
+<search_hit peptide="NLDPLTETY" massdiff="1.220703125E-4" calc_neutral_pep_mass="1064.5026" peptide_next_aa="G" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="16" hit_rank="1" num_matched_ions="8" protein="SPROHSA227331" peptide_prev_aa="I" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA316729" peptide_prev_aa="I" peptide_next_aa="G" num_tol_term="0"/>
+<search_score name="hyperscore" value="17.180"/>
+<search_score name="nextscore" value="12.260"/>
+<search_score name="expect" value="1.794e-01"/>
+<search_score name="spectralsim" value="0.823400"/>
+<search_score name="rtscore" value="2.265700"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.533587" all_ntt_prob="(0.533587,0.533587,0.533587)">
+<search_score_summary>
+<parameter name="fval" value="-0.247370"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="0.114674"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="1964" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.01964.01964.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=1964" end_scan="1964" index="1743" precursor_neutral_mass="1115.4584" retention_time_sec="4193.1523">
+<search_result>
+<search_hit peptide="RMVGSCCTIM" massdiff="-0.0010986328125" calc_neutral_pep_mass="1115.4595" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="6" protein="SPROHSA265604" peptide_prev_aa="A" is_rejected="0">
+<modification_info modified_peptide="RMVGSCCTIM[147]">
+<mod_aminoacid_mass mass="147.0354" position="10"/>
+</modification_info>
+<search_score name="hyperscore" value="12.456"/>
+<search_score name="nextscore" value="12.257"/>
+<search_score name="expect" value="2.782e+00"/>
+<search_score name="spectralsim" value="0.810400"/>
+<search_score name="rtscore" value="18.076700"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.508115" all_ntt_prob="(0.508115,0.508115,0.508115)">
+<search_score_summary>
+<parameter name="fval" value="-0.270161"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.984915"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2015" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02015.02015.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2015" end_scan="2015" index="1789" precursor_neutral_mass="1136.5409" retention_time_sec="4297.9873">
+<search_result>
+<search_hit peptide="MTELPAPLSY" massdiff="-0.0013427734375" calc_neutral_pep_mass="1136.5422" peptide_next_aa="F" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="16" tot_num_ions="18" hit_rank="1" num_matched_ions="10" protein="SPROHSA1100" peptide_prev_aa="P" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA1101" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA1102" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA1103" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146023" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146024" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146025" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146026" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146027" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146028" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146029" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA146030" peptide_prev_aa="-" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA318476" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA393156" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA393157" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA393158" peptide_prev_aa="P" peptide_next_aa="F" num_tol_term="0"/>
+
+<modification_info modified_peptide="M[147]TELPAPLSY">
+<mod_aminoacid_mass mass="147.0354" position="1"/>
+</modification_info>
+<search_score name="hyperscore" value="21.688"/>
+<search_score name="nextscore" value="21.688"/>
+<search_score name="expect" value="6.391e-04"/>
+<search_score name="spectralsim" value="0.922700"/>
+<search_score name="rtscore" value="5.849200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.694480" all_ntt_prob="(0.694480,0.694480,0.694480)">
+<search_score_summary>
+<parameter name="fval" value="-0.073282"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.181455"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2038" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02038.02038.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2038" end_scan="2038" index="1810" precursor_neutral_mass="991.5689" retention_time_sec="4344.237">
+<search_result>
+<search_hit peptide="LPGAQPPSIL" massdiff="-0.00128173828125" calc_neutral_pep_mass="991.5702" peptide_next_aa="K" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="18" hit_rank="1" num_matched_ions="8" protein="SPROHSA166044" peptide_prev_aa="P" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA232167" peptide_prev_aa="P" peptide_next_aa="K" num_tol_term="0"/>
+<search_score name="hyperscore" value="16.396"/>
+<search_score name="nextscore" value="14.511"/>
+<search_score name="expect" value="2.357e+00"/>
+<search_score name="spectralsim" value="0.809500"/>
+<search_score name="rtscore" value="2.144200"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.510529" all_ntt_prob="(0.510529,0.510529,0.510529)">
+<search_score_summary>
+<parameter name="fval" value="-0.268038"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.292635"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2090" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02090.02090.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2090" end_scan="2090" index="1857" precursor_neutral_mass="997.45483" retention_time_sec="4456.63">
+<search_result>
+<search_hit peptide="GAGAHCSGLPQ" massdiff="1.0101318359375" calc_neutral_pep_mass="996.4447" peptide_next_aa="G" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="11" tot_num_ions="20" hit_rank="1" num_matched_ions="8" protein="SPROHSA178044" peptide_prev_aa="P" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA221758" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA222793" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA269614" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA300128" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA313036" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA317474" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA371377" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA372718" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA392651" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA74075" peptide_prev_aa="P" peptide_next_aa="G" num_tol_term="0"/>
+<search_score name="hyperscore" value="15.866"/>
+<search_score name="nextscore" value="14.715"/>
+<search_score name="expect" value="1.746e+00"/>
+<search_score name="spectralsim" value="0.923600"/>
+<search_score name="rtscore" value="40.678501"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.695672" all_ntt_prob="(0.695672,0.695672,0.695672)">
+<search_score_summary>
+<parameter name="fval" value="-0.071704"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="6.801178"/>
+<parameter name="isomassd" value="1"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2121" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02121.02121.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2121" end_scan="2121" index="1885" precursor_neutral_mass="1232.6274" retention_time_sec="4530.55">
+<search_result>
+<search_hit peptide="VSDIVGPDGLVY" massdiff="-0.0013427734375" calc_neutral_pep_mass="1232.6288" peptide_next_aa="A" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="4" tot_num_ions="22" hit_rank="1" num_matched_ions="12" protein="SPROHSA246424" peptide_prev_aa="H" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA247962" peptide_prev_aa="H" peptide_next_aa="A" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA306726" peptide_prev_aa="H" peptide_next_aa="A" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA341585" peptide_prev_aa="H" peptide_next_aa="A" num_tol_term="0"/>
+
+<search_score name="hyperscore" value="25.271"/>
+<search_score name="nextscore" value="14.214"/>
+<search_score name="expect" value="7.666e-04"/>
+<search_score name="spectralsim" value="0.871700"/>
+<search_score name="rtscore" value="2.139000"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.614260" all_ntt_prob="(0.614260,0.614260,0.614260)">
+<search_score_summary>
+<parameter name="fval" value="-0.168086"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.089358"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2123" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02123.02123.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2123" end_scan="2123" index="1887" precursor_neutral_mass="1174.5747" retention_time_sec="4533.764">
+<search_result>
+<search_hit peptide="LTELPPLDDY" massdiff="-9.765625E-4" calc_neutral_pep_mass="1174.5757" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="18" hit_rank="1" num_matched_ions="12" protein="SPROHSA374474" peptide_prev_aa="I" is_rejected="0">
+<search_score name="hyperscore" value="23.956"/>
+<search_score name="nextscore" value="13.124"/>
+<search_score name="expect" value="4.788e-04"/>
+<search_score name="spectralsim" value="0.938000"/>
+<search_score name="rtscore" value="2.948600"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.703241" all_ntt_prob="(0.703241,0.703241,0.703241)">
+<search_score_summary>
+<parameter name="fval" value="-0.061546"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.831417"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2147" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02147.02147.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2147" end_scan="2147" index="1909" precursor_neutral_mass="952.55225" retention_time_sec="4583.999">
+<search_result>
+<search_hit peptide="CPRPGVVLL" massdiff="-5.4931640625E-4" calc_neutral_pep_mass="952.5528" peptide_next_aa="T" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="2" tot_num_ions="16" hit_rank="1" num_matched_ions="8" protein="SPROHSA189060" peptide_prev_aa="S" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA350452" peptide_prev_aa="S" peptide_next_aa="T" num_tol_term="0"/>
+<search_score name="hyperscore" value="16.556"/>
+<search_score name="nextscore" value="11.040"/>
+<search_score name="expect" value="1.000e-01"/>
+<search_score name="spectralsim" value="0.927500"/>
+<search_score name="rtscore" value="12.319800"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.690567" all_ntt_prob="(0.690567,0.690567,0.690567)">
+<search_score_summary>
+<parameter name="fval" value="-0.078419"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-0.576678"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2148" assumed_charge="2" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02148.02148.2" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2148" end_scan="2148" index="1910" precursor_neutral_mass="990.5084" retention_time_sec="4584.962">
+<search_result>
+<search_hit peptide="ATSSEEVLL" massdiff="1.01666259765625" calc_neutral_pep_mass="989.49176" peptide_next_aa="I" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="1" tot_num_ions="16" hit_rank="1" num_matched_ions="5" protein="SPROHSA191013" peptide_prev_aa="M" is_rejected="0">
+<modification_info modified_peptide="n[43]ATSSEEVLL" mod_nterm_mass="43.018425">
+</modification_info>
+<search_score name="hyperscore" value="10.018"/>
+<search_score name="nextscore" value="0.000"/>
+<search_score name="expect" value="9.633e+00"/>
+<search_score name="spectralsim" value="0.868800"/>
+<search_score name="rtscore" value="5.134300"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.609865" all_ntt_prob="(0.609865,0.609865,0.609865)">
+<search_score_summary>
+<parameter name="fval" value="-0.172746"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="13.449086"/>
+<parameter name="isomassd" value="1"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+<spectrum_query start_scan="2203" assumed_charge="3" spectrum="GR_LCL_2D_ETHCD_fr1_immunopeptidome.02203.02203.3" spectrumNativeID="controllerType=0 controllerNumber=1 scan=2203" end_scan="2203" index="1960" precursor_neutral_mass="1195.7288" retention_time_sec="4712.8223">
+<search_result>
+<search_hit peptide="RRKQFHVLL" massdiff="-0.0013427734375" calc_neutral_pep_mass="1195.7301" peptide_next_aa="S" num_missed_cleavages="0" num_tol_term="0" protein_descr="" num_tot_proteins="4" tot_num_ions="16" hit_rank="1" num_matched_ions="7" protein="SPROHSA102773" peptide_prev_aa="L" is_rejected="0">
+<alternative_protein protein_descr="" protein="SPROHSA298764" peptide_prev_aa="L" peptide_next_aa="S" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA370712" peptide_prev_aa="L" peptide_next_aa="S" num_tol_term="0"/>
+<alternative_protein protein_descr="" protein="SPROHSA382722" peptide_prev_aa="L" peptide_next_aa="S" num_tol_term="0"/>
+<search_score name="hyperscore" value="15.077"/>
+<search_score name="nextscore" value="12.083"/>
+<search_score name="expect" value="1.448e+00"/>
+<search_score name="spectralsim" value="0.976300"/>
+<search_score name="rtscore" value="34.710201"/>
+<analysis_result analysis="peptideprophet">
+<peptideprophet_result probability="0.745313" all_ntt_prob="(0.745313,0.745313,0.745313)">
+<search_score_summary>
+<parameter name="fval" value="0.000000"/>
+<parameter name="ntt" value="0"/>
+<parameter name="nmc" value="0"/>
+<parameter name="massd" value="-1.122974"/>
+<parameter name="isomassd" value="0"/>
+</search_score_summary>
+</peptideprophet_result>
+</analysis_result>
+</search_hit>
+</search_result>
+</spectrum_query>
+</msms_run_summary>
+</msms_pipeline_analysis>
