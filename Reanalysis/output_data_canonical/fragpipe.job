@@ -1,0 +1,2 @@
+# Job name (optional)	Workflow file path	Manifest file path	Output directory	Tools folder path (optional)	Fasta path (optional)	RAM (optional)	Threads (optional)
+runtime-save	C:\bioprogect\output_data_4\fragpipe-workflow.workflow	C:\bioprogect\output_data_4\fragpipe-files.fp-manifest	C:\bioprogect\output_data_4	C:\FragPipe\FragPipe-24.0\tools	C:\bioprogect\2026-06-14-decoys-contam-UP000005640_9606.fasta.fas	9	1
