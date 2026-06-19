@@ -1,0 +1,2 @@
+# Job name (optional)	Workflow file path	Manifest file path	Output directory	Tools folder path (optional)	Fasta path (optional)	RAM (optional)	Threads (optional)
+runtime-save	/media/lsky/HDD1/biology/Anna/output/fragpipe-workflow.workflow	/media/lsky/HDD1/biology/Anna/output/fragpipe-files.fp-manifest	/media/lsky/HDD1/biology/Anna/output	/home/lsky/fragpipe-24.0/tools	/media/lsky/HDD1/biology/Anna/2026-06-14-decoys-contam-SmProt2_human_Ribo.fa.fas	7	7
