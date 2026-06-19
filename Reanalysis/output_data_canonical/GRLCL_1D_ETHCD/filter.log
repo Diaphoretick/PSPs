@@ -1,0 +1,26 @@
+time="21:30:07" level=info msg="Executing Filter  v5.1.3"
+time="21:30:07" level=info msg="Processing peptide identification files"
+time="21:30:07" level=info msg="Parsing C:\\bioprogect\\output_data_4\\GRLCL_1D_ETHCD\\interact-GR_LCL_1D_ETHCD_immunopeptidome.pep.xml"
+time="21:30:07" level=info msg="1+ Charge profile" decoy=0 target=0
+time="21:30:07" level=info msg="2+ Charge profile" decoy=95 target=2040
+time="21:30:07" level=info msg="3+ Charge profile" decoy=30 target=814
+time="21:30:07" level=info msg="4+ Charge profile" decoy=2 target=50
+time="21:30:07" level=info msg="5+ Charge profile" decoy=3 target=10
+time="21:30:07" level=info msg="6+ Charge profile" decoy=1 target=2
+time="21:30:07" level=info msg="Database search results" ions=2670 peptides=2446 psms=3047
+time="21:30:07" level=info msg="Converged to 0.97 % FDR with 2262 PSMs" decoy=22 threshold=0.963786 total=2284
+time="21:30:07" level=info msg="Converged to 0.98 % FDR with 1626 Peptides" decoy=16 threshold=0.974315 total=1642
+time="21:30:07" level=info msg="Converged to 0.98 % FDR with 1934 Ions" decoy=19 threshold=0.967329 total=1953
+time="21:30:07" level=info msg="Protein inference results" decoy=925 target=5585
+time="21:30:07" level=info msg="Converged to 17.34 % FDR with 5272 Proteins" decoy=914 threshold=0.5002 total=6186
+time="21:30:08" level=info msg="Applying sequential FDR estimation" ions=1999 peptides=1814 psms=2283
+time="21:30:08" level=info msg="2260 PSMs" decoy=22 threshold=0.963789 total=2282
+time="21:30:08" level=info msg="1625 Peptides" decoy=16 threshold=0.974315 total=1641
+time="21:30:08" level=info msg="1933 Ions" decoy=19 threshold=0.967329 total=1952
+time="21:30:08" level=info msg="Post processing identifications"
+time="21:30:08" level=info msg="Assigning protein identifications to layers"
+time="21:30:08" level=info msg="Processing protein inference"
+time="21:30:08" level=info msg="Synchronizing PSMs and proteins"
+time="21:30:08" level=info msg="Final report numbers after FDR filtering, and post-processing" ions=1933 peptides=1625 proteins=1380 psms=2260
+time="21:30:08" level=info msg=Saving
+time="21:30:09" level=info msg=Done
