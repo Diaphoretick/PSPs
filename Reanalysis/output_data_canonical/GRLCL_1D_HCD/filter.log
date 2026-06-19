@@ -1,0 +1,27 @@
+time="21:30:09" level=info msg="Executing Filter  v5.1.3"
+time="21:30:09" level=info msg="Fetching protein inference from C:\\bioprogect\\output_data_4\\GRLCL_1D_ETHCD"
+time="21:30:09" level=info msg="Processing peptide identification files"
+time="21:30:09" level=info msg="Parsing C:\\bioprogect\\output_data_4\\GRLCL_1D_HCD\\interact-GR_LCL_1D_HCD_immunopeptidome.pep.xml"
+time="21:30:10" level=info msg="1+ Charge profile" decoy=0 target=0
+time="21:30:10" level=info msg="2+ Charge profile" decoy=201 target=4982
+time="21:30:10" level=info msg="3+ Charge profile" decoy=66 target=1970
+time="21:30:10" level=info msg="4+ Charge profile" decoy=1 target=134
+time="21:30:10" level=info msg="5+ Charge profile" decoy=0 target=18
+time="21:30:10" level=info msg="6+ Charge profile" decoy=0 target=3
+time="21:30:10" level=info msg="Database search results" ions=6787 peptides=6128 psms=7375
+time="21:30:10" level=info msg="Converged to 0.99 % FDR with 6370 PSMs" decoy=63 threshold=0.944819 total=6433
+time="21:30:10" level=info msg="Converged to 1.00 % FDR with 5116 Peptides" decoy=51 threshold=0.957175 total=5167
+time="21:30:10" level=info msg="Converged to 0.99 % FDR with 5831 Ions" decoy=58 threshold=0.948435 total=5889
+time="21:30:10" level=info msg="Protein inference results" decoy=925 target=5585
+time="21:30:10" level=info msg="Converged to 17.34 % FDR with 5272 Proteins" decoy=914 threshold=0.5002 total=6186
+time="21:30:10" level=info msg="Applying sequential FDR estimation" ions=5936 peptides=5336 psms=6433
+time="21:30:10" level=info msg="6369 PSMs" decoy=63 threshold=0.945277 total=6432
+time="21:30:10" level=info msg="5116 Peptides" decoy=51 threshold=0.957175 total=5167
+time="21:30:10" level=info msg="5831 Ions" decoy=58 threshold=0.948435 total=5889
+time="21:30:10" level=info msg="Post processing identifications"
+time="21:30:10" level=info msg="Assigning protein identifications to layers"
+time="21:30:12" level=info msg="Processing protein inference"
+time="21:30:12" level=info msg="Synchronizing PSMs and proteins"
+time="21:30:12" level=info msg="Final report numbers after FDR filtering, and post-processing" ions=5830 peptides=5115 proteins=3149 psms=6368
+time="21:30:12" level=info msg=Saving
+time="21:30:12" level=info msg=Done
